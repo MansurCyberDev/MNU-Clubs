@@ -525,3 +525,12 @@ p{line-height:1.62}
 }
 @media(max-width:390px){.main-area{padding-left:13px!important;padding-right:13px!important}.home-section-head h2{font-size:21px!important}.home-section-head .quiet-link{font-size:11px!important}.orientation-question>b{font-size:20px!important}.club-tab{font-size:11px!important}.workshop-photo-grid{gap:7px!important}.photo-archive-card>a img{height:108px!important}.photo-archive-meta{padding:8px!important}.photo-download{min-height:33px!important;font-size:11px!important}.wizard-step b{font-size:10px!important}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
+/* Preserve strong contrast inside the plum sign-in panel. Global heading and paragraph rules must not darken text on this surface. */
+.auth-dialog .auth-promo-copy h2{color:#fff!important;text-shadow:0 1px 1px rgba(27,17,31,.16)!important}
+.auth-dialog .auth-promo-copy p{color:#f3eaf2!important}
+.auth-dialog .auth-promo-kicker{color:#f2d2dc!important}
+.auth-dialog .auth-promo-tags span{color:#fff!important}
+/* The interest guide uses a pale surface, so keep every label on it dark enough to read. */
+.why-panel h3{color:#382e3a!important}
+.why-panel .match-flow li,.why-panel .match-flow li span{color:#514550!important}
+.why-panel .section-eyebrow{color:#796781!important}
